@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CDB40FDC2A0E1377007D29B6 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB40FDB2A0E1377007D29B6 /* Int.swift */; };
 		CDE0D1BE29BAF5CC0040F8E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE0D1BD29BAF5CC0040F8E6 /* AppDelegate.swift */; };
 		CDE0D1C029BAF5CC0040F8E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE0D1BF29BAF5CC0040F8E6 /* SceneDelegate.swift */; };
 		CDE0D1C229BAF5CC0040F8E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE0D1C129BAF5CC0040F8E6 /* ViewController.swift */; };
 		CDE0D1C529BAF5CC0040F8E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE0D1C329BAF5CC0040F8E6 /* Main.storyboard */; };
 		CDE0D1C729BAF5D20040F8E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE0D1C629BAF5D20040F8E6 /* Assets.xcassets */; };
 		CDE0D1CA29BAF5D20040F8E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE0D1C829BAF5D20040F8E6 /* LaunchScreen.storyboard */; };
+		CDE65FA929C4312F00671401 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE65FA829C4312F00671401 /* Card.swift */; };
+		CDE65FAB29C4314900671401 /* MatchingGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE65FAA29C4314900671401 /* MatchingGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CDB40FDB2A0E1377007D29B6 /* Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
 		CDE0D1BA29BAF5CC0040F8E6 /* Matching-Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Matching-Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE0D1BD29BAF5CC0040F8E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDE0D1BF29BAF5CC0040F8E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		CDE0D1C629BAF5D20040F8E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDE0D1C929BAF5D20040F8E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDE0D1CB29BAF5D20040F8E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE65FA829C4312F00671401 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		CDE65FAA29C4314900671401 /* MatchingGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchingGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,9 +43,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CDB40FDA2A0E136D007D29B6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CDB40FDB2A0E1377007D29B6 /* Int.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		CDE0D1B129BAF5CC0040F8E6 = {
 			isa = PBXGroup;
 			children = (
+				CDE65FA829C4312F00671401 /* Card.swift */,
+				CDE65FAA29C4314900671401 /* MatchingGame.swift */,
+				CDB40FDA2A0E136D007D29B6 /* Extension */,
 				CDE0D1BC29BAF5CC0040F8E6 /* Matching-Card */,
 				CDE0D1BB29BAF5CC0040F8E6 /* Products */,
 			);
@@ -140,7 +157,10 @@
 			files = (
 				CDE0D1C229BAF5CC0040F8E6 /* ViewController.swift in Sources */,
 				CDE0D1BE29BAF5CC0040F8E6 /* AppDelegate.swift in Sources */,
+				CDE65FAB29C4314900671401 /* MatchingGame.swift in Sources */,
+				CDB40FDC2A0E1377007D29B6 /* Int.swift in Sources */,
 				CDE0D1C029BAF5CC0040F8E6 /* SceneDelegate.swift in Sources */,
+				CDE65FA929C4312F00671401 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
