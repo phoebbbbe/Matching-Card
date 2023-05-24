@@ -11,19 +11,13 @@ import UIKit
 class MatchingGame {
     var cards: Array<Card> = []
     var flipCount:Int = 0
-    /*
-     Initiate set Matching Game's cards
-     */
+    
+    // Initiate set Matching Game's cards
     init(numberOfPairOfCards: Int) { // 需要幾“對”牌
-        /* 還沒有 getUniqueIdentifier() 時，需要自己用迴圈創建新的 identifier
+        // 還沒有 getUniqueIdentifier() 時，需要自己用迴圈創建新的 identifier
+        /* Way 1.
         for identifier in 1...numberOfPairOfCards {
             let card = Card.init(identifier: identifier)
-            //cards.append(card)
-            /*
-            let matchingCard = card // because card is struct so pass-by-value
-            cards.append(matchingCard)
-            */
-            //cards.append(card)
             cards += [card, card]
         }
          */
